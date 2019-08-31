@@ -1,0 +1,32 @@
+{
+  "name": "service-child-2",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "PORT=3003 NODE_ENV=production node build/server/index.js",
+    "build": "webpack --config webpack.config.server.js && webpack --config webpack.config.client.js"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "razzle": "^3.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
