@@ -10,7 +10,7 @@
     "@babel/runtime": "^7.5.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "razzle": "^3.0.0",
+    "razzle": "^4.2.18",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.3.2"
@@ -25,6 +25,6 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-styled-components": "^1.10.6",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.12"
   }
 }
